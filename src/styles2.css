@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+.main {
+  display: flex;
+  /* flex-flow: row; */
+  flex-direction: row;
+  padding: 1em;
+}
+
+.item {
+  background-color: #302ea6;
+  color: #fff;
+  box-sizing: border-box;
+  flex: 1;
+  font-size: 1.2em;
+  padding: 1em;
+}
+
+.item:nth-child(even) {
+  background-color: #9bc850;
+}
+
+.item:first-child {
+  flex: 0 0 10%;
+}
